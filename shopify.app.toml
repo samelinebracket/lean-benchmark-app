@@ -1,0 +1,25 @@
+name = "lean-benchmark-app"
+api_contact_email = "hanhan@gmail.com"
+client_id = "061b2385095d0647226e520243844188"
+application_url = "https://laughing-subsidiary-rentals-extraordinary.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://laughing-subsidiary-rentals-extraordinary.trycloudflare.com/auth/callback",
+  "https://laughing-subsidiary-rentals-extraordinary.trycloudflare.com/auth/shopify/callback",
+  "https://laughing-subsidiary-rentals-extraordinary.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "tonberry-shop.myshopify.com"

@@ -1,0 +1,10 @@
+type = "tax_calculation"
+name = "optimized-franchise-ext"
+
+production_api_base_url = "https://faq-library-evaluate-statistics.trycloudflare.com/api"
+benchmark_api_base_url = "https://faq-library-evaluate-statistics.trycloudflare.com/benchmark"
+calculate_taxes_api_endpoint = "https://faq-library-evaluate-statistics.trycloudflare.com/calculate-taxes"
+
+[[metafields]]
+namespace = "my-mf-namespace"
+key = "my-mf-key"
